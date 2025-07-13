@@ -1,0 +1,60 @@
+# Python
+__pycache__/
+*.pyc
+*.pyd
+*.so
+.Python
+env/
+venv/
+.venv/
+bin/
+include/
+lib/
+lib64/
+local/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Data
+data/          # Ignore all files in a 'data' directory
+*.csv
+*.json
+*.parquet
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+temp_data/
+
+# Trained Models and Checkpoints
+models/
+checkpoints/
+saved_models/
+*.pt
+*.pth
+*.tf
+*.joblib
+
+# Experiment Logs and Results
+logs/
+runs/          # For TensorBoard logs
+results/
+metrics/
+artifacts/
+
+# Environment Variables and Sensitive Files
+.env
+*.env
+config.local.py
+credentials.json
+*.pem
+*.key
+
+# IDE and OS specific
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+*.swp
+*~
